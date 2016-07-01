@@ -10,6 +10,40 @@
 		B13011951D2680EC00297B60 /* MK2FlashAirKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B13011941D2680EC00297B60 /* MK2FlashAirKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B130119C1D2680EC00297B60 /* MK2FlashAirKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011911D2680EC00297B60 /* MK2FlashAirKit.framework */; };
 		B13011A11D2680EC00297B60 /* MK2FlashAirKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011A01D2680EC00297B60 /* MK2FlashAirKitTests.swift */; };
+		B13011BC1D26816800297B60 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011AB1D26816800297B60 /* AppInfo.swift */; };
+		B13011BD1D26816800297B60 /* CommandAPIRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011AC1D26816800297B60 /* CommandAPIRequestType.swift */; };
+		B13011BE1D26816800297B60 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011AD1D26816800297B60 /* Common.swift */; };
+		B13011BF1D26816800297B60 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011AE1D26816800297B60 /* Config.swift */; };
+		B13011C01D26816800297B60 /* ConfigAPIRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011AF1D26816800297B60 /* ConfigAPIRequestType.swift */; };
+		B13011C11D26816800297B60 /* FileCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B01D26816800297B60 /* FileCount.swift */; };
+		B13011C21D26816800297B60 /* FileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B11D26816800297B60 /* FileList.swift */; };
+		B13011C31D26816800297B60 /* FirmwareVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B21D26816800297B60 /* FirmwareVersion.swift */; };
+		B13011C41D26816800297B60 /* MACAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B31D26816800297B60 /* MACAddress.swift */; };
+		B13011C51D26816800297B60 /* NetworkPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B41D26816800297B60 /* NetworkPassword.swift */; };
+		B13011C61D26816800297B60 /* SSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B51D26816800297B60 /* SSID.swift */; };
+		B13011C71D26816800297B60 /* StorageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B61D26816800297B60 /* StorageInfo.swift */; };
+		B13011C81D26816800297B60 /* ThumbnailAPIRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B71D26816800297B60 /* ThumbnailAPIRequestType.swift */; };
+		B13011C91D26816800297B60 /* Updated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B81D26816800297B60 /* Updated.swift */; };
+		B13011CA1D26816800297B60 /* Uplodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011B91D26816800297B60 /* Uplodable.swift */; };
+		B13011CB1D26816800297B60 /* WLANAwakeningMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011BA1D26816800297B60 /* WLANAwakeningMode.swift */; };
+		B13011CC1D26816800297B60 /* WLANTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011BB1D26816800297B60 /* WLANTimeout.swift */; };
+		B13011D01D2681A300297B60 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011CE1D2681A300297B60 /* APIKit.framework */; };
+		B13011D11D2681A300297B60 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011CF1D2681A300297B60 /* Result.framework */; };
+		B13011D91D26820300297B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011D81D26820300297B60 /* AppDelegate.swift */; };
+		B13011DE1D26820300297B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13011DC1D26820300297B60 /* Main.storyboard */; };
+		B13011E01D26820300297B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13011DF1D26820300297B60 /* Assets.xcassets */; };
+		B13011E31D26820300297B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13011E11D26820300297B60 /* LaunchScreen.storyboard */; };
+		B13011EC1D26827E00297B60 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011E81D26827E00297B60 /* ConfigViewController.swift */; };
+		B13011ED1D26827E00297B60 /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011E91D26827E00297B60 /* FileListViewController.swift */; };
+		B13011EE1D26827E00297B60 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011EA1D26827E00297B60 /* ImageViewController.swift */; };
+		B13011EF1D26827E00297B60 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011EB1D26827E00297B60 /* InformationViewController.swift */; };
+		B13011F11D2682B700297B60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13011F01D2682B700297B60 /* Constants.swift */; };
+		B13011F51D26852C00297B60 /* MK2FlashAirKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011911D2680EC00297B60 /* MK2FlashAirKit.framework */; };
+		B13011F61D26852C00297B60 /* MK2FlashAirKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B13011911D2680EC00297B60 /* MK2FlashAirKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B13011F91D268BFE00297B60 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011CE1D2681A300297B60 /* APIKit.framework */; };
+		B13011FA1D268C3C00297B60 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011CF1D2681A300297B60 /* Result.framework */; };
+		B13011FD1D268C3C00297B60 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011FB1D268C3C00297B60 /* Alamofire.framework */; };
+		B13011FE1D268C3C00297B60 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13011FC1D268C3C00297B60 /* AlamofireImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +54,28 @@
 			remoteGlobalIDString = B13011901D2680EC00297B60;
 			remoteInfo = MK2FlashAirKit;
 		};
+		B13011F31D2684D800297B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13011881D2680EC00297B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13011901D2680EC00297B60;
+			remoteInfo = MK2FlashAirKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B13011F71D26852C00297B60 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B13011F61D26852C00297B60 /* MK2FlashAirKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B13011911D2680EC00297B60 /* MK2FlashAirKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MK2FlashAirKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +84,38 @@
 		B130119B1D2680EC00297B60 /* MK2FlashAirKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MK2FlashAirKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13011A01D2680EC00297B60 /* MK2FlashAirKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK2FlashAirKitTests.swift; sourceTree = "<group>"; };
 		B13011A21D2680EC00297B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13011AB1D26816800297B60 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		B13011AC1D26816800297B60 /* CommandAPIRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandAPIRequestType.swift; sourceTree = "<group>"; };
+		B13011AD1D26816800297B60 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B13011AE1D26816800297B60 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B13011AF1D26816800297B60 /* ConfigAPIRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigAPIRequestType.swift; sourceTree = "<group>"; };
+		B13011B01D26816800297B60 /* FileCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCount.swift; sourceTree = "<group>"; };
+		B13011B11D26816800297B60 /* FileList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileList.swift; sourceTree = "<group>"; };
+		B13011B21D26816800297B60 /* FirmwareVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareVersion.swift; sourceTree = "<group>"; };
+		B13011B31D26816800297B60 /* MACAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MACAddress.swift; sourceTree = "<group>"; };
+		B13011B41D26816800297B60 /* NetworkPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkPassword.swift; sourceTree = "<group>"; };
+		B13011B51D26816800297B60 /* SSID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSID.swift; sourceTree = "<group>"; };
+		B13011B61D26816800297B60 /* StorageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageInfo.swift; sourceTree = "<group>"; };
+		B13011B71D26816800297B60 /* ThumbnailAPIRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailAPIRequestType.swift; sourceTree = "<group>"; };
+		B13011B81D26816800297B60 /* Updated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updated.swift; sourceTree = "<group>"; };
+		B13011B91D26816800297B60 /* Uplodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uplodable.swift; sourceTree = "<group>"; };
+		B13011BA1D26816800297B60 /* WLANAwakeningMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLANAwakeningMode.swift; sourceTree = "<group>"; };
+		B13011BB1D26816800297B60 /* WLANTimeout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLANTimeout.swift; sourceTree = "<group>"; };
+		B13011CE1D2681A300297B60 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = ../Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		B13011CF1D2681A300297B60 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		B13011D61D26820300297B60 /* MK2FlashAirKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MK2FlashAirKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13011D81D26820300297B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B13011DD1D26820300297B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13011DF1D26820300297B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13011E21D26820300297B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B13011E41D26820300297B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13011E81D26827E00297B60 /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		B13011E91D26827E00297B60 /* FileListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		B13011EA1D26827E00297B60 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B13011EB1D26827E00297B60 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		B13011F01D2682B700297B60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B13011FB1D268C3C00297B60 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B13011FC1D268C3C00297B60 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = ../Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13011D01D2681A300297B60 /* APIKit.framework in Frameworks */,
+				B13011D11D2681A300297B60 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +136,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B13011D31D26820300297B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13011FD1D268C3C00297B60 /* Alamofire.framework in Frameworks */,
+				B13011FE1D268C3C00297B60 /* AlamofireImage.framework in Frameworks */,
+				B13011FA1D268C3C00297B60 /* Result.framework in Frameworks */,
+				B13011F51D26852C00297B60 /* MK2FlashAirKit.framework in Frameworks */,
+				B13011F91D268BFE00297B60 /* APIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +156,7 @@
 			children = (
 				B13011931D2680EC00297B60 /* MK2FlashAirKit */,
 				B130119F1D2680EC00297B60 /* MK2FlashAirKitTests */,
+				B13011D71D26820300297B60 /* MK2FlashAirKitSample */,
 				B13011921D2680EC00297B60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +166,7 @@
 			children = (
 				B13011911D2680EC00297B60 /* MK2FlashAirKit.framework */,
 				B130119B1D2680EC00297B60 /* MK2FlashAirKitTests.xctest */,
+				B13011D61D26820300297B60 /* MK2FlashAirKitSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +174,26 @@
 		B13011931D2680EC00297B60 /* MK2FlashAirKit */ = {
 			isa = PBXGroup;
 			children = (
+				B13011AB1D26816800297B60 /* AppInfo.swift */,
+				B13011AC1D26816800297B60 /* CommandAPIRequestType.swift */,
+				B13011AD1D26816800297B60 /* Common.swift */,
+				B13011AE1D26816800297B60 /* Config.swift */,
+				B13011AF1D26816800297B60 /* ConfigAPIRequestType.swift */,
+				B13011B01D26816800297B60 /* FileCount.swift */,
+				B13011B11D26816800297B60 /* FileList.swift */,
+				B13011B21D26816800297B60 /* FirmwareVersion.swift */,
+				B13011B31D26816800297B60 /* MACAddress.swift */,
+				B13011B41D26816800297B60 /* NetworkPassword.swift */,
+				B13011B51D26816800297B60 /* SSID.swift */,
+				B13011B61D26816800297B60 /* StorageInfo.swift */,
+				B13011B71D26816800297B60 /* ThumbnailAPIRequestType.swift */,
+				B13011B81D26816800297B60 /* Updated.swift */,
+				B13011B91D26816800297B60 /* Uplodable.swift */,
+				B13011BA1D26816800297B60 /* WLANAwakeningMode.swift */,
+				B13011BB1D26816800297B60 /* WLANTimeout.swift */,
 				B13011941D2680EC00297B60 /* MK2FlashAirKit.h */,
 				B13011961D2680EC00297B60 /* Info.plist */,
+				B13011CD1D26818200297B60 /* Frameworks */,
 			);
 			path = MK2FlashAirKit;
 			sourceTree = "<group>";
@@ -84,6 +205,42 @@
 				B13011A21D2680EC00297B60 /* Info.plist */,
 			);
 			path = MK2FlashAirKitTests;
+			sourceTree = "<group>";
+		};
+		B13011CD1D26818200297B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13011CE1D2681A300297B60 /* APIKit.framework */,
+				B13011CF1D2681A300297B60 /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13011D71D26820300297B60 /* MK2FlashAirKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				B13011D81D26820300297B60 /* AppDelegate.swift */,
+				B13011F01D2682B700297B60 /* Constants.swift */,
+				B13011E81D26827E00297B60 /* ConfigViewController.swift */,
+				B13011E91D26827E00297B60 /* FileListViewController.swift */,
+				B13011EA1D26827E00297B60 /* ImageViewController.swift */,
+				B13011EB1D26827E00297B60 /* InformationViewController.swift */,
+				B13011DC1D26820300297B60 /* Main.storyboard */,
+				B13011DF1D26820300297B60 /* Assets.xcassets */,
+				B13011E11D26820300297B60 /* LaunchScreen.storyboard */,
+				B13011E41D26820300297B60 /* Info.plist */,
+				B13012001D268D1B00297B60 /* Frameworks */,
+			);
+			path = MK2FlashAirKitSample;
+			sourceTree = "<group>";
+		};
+		B13012001D268D1B00297B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13011FB1D268C3C00297B60 /* Alamofire.framework */,
+				B13011FC1D268C3C00297B60 /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +293,26 @@
 			productReference = B130119B1D2680EC00297B60 /* MK2FlashAirKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B13011D51D26820300297B60 /* MK2FlashAirKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13011E51D26820300297B60 /* Build configuration list for PBXNativeTarget "MK2FlashAirKitSample" */;
+			buildPhases = (
+				B13011D21D26820300297B60 /* Sources */,
+				B13011D31D26820300297B60 /* Frameworks */,
+				B13011D41D26820300297B60 /* Resources */,
+				B13011F71D26852C00297B60 /* Embed Frameworks */,
+				B13011FF1D268C4800297B60 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13011F41D2684D800297B60 /* PBXTargetDependency */,
+			);
+			name = MK2FlashAirKitSample;
+			productName = MK2FlashAirKitSample;
+			productReference = B13011D61D26820300297B60 /* MK2FlashAirKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +329,9 @@
 					B130119A1D2680EC00297B60 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					B13011D51D26820300297B60 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = B130118B1D2680EC00297B60 /* Build configuration list for PBXProject "MK2FlashAirKit" */;
@@ -160,6 +340,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B13011871D2680EC00297B60;
 			productRefGroup = B13011921D2680EC00297B60 /* Products */;
@@ -167,6 +348,7 @@
 			projectRoot = "";
 			targets = (
 				B13011901D2680EC00297B60 /* MK2FlashAirKit */,
+				B13011D51D26820300297B60 /* MK2FlashAirKitSample */,
 				B130119A1D2680EC00297B60 /* MK2FlashAirKitTests */,
 			);
 		};
@@ -187,13 +369,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B13011D41D26820300297B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13011E31D26820300297B60 /* LaunchScreen.storyboard in Resources */,
+				B13011E01D26820300297B60 /* Assets.xcassets in Resources */,
+				B13011DE1D26820300297B60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B13011FF1D268C4800297B60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B130118C1D2680EC00297B60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13011C01D26816800297B60 /* ConfigAPIRequestType.swift in Sources */,
+				B13011BD1D26816800297B60 /* CommandAPIRequestType.swift in Sources */,
+				B13011C61D26816800297B60 /* SSID.swift in Sources */,
+				B13011C91D26816800297B60 /* Updated.swift in Sources */,
+				B13011BF1D26816800297B60 /* Config.swift in Sources */,
+				B13011CA1D26816800297B60 /* Uplodable.swift in Sources */,
+				B13011C31D26816800297B60 /* FirmwareVersion.swift in Sources */,
+				B13011C71D26816800297B60 /* StorageInfo.swift in Sources */,
+				B13011C81D26816800297B60 /* ThumbnailAPIRequestType.swift in Sources */,
+				B13011C21D26816800297B60 /* FileList.swift in Sources */,
+				B13011C51D26816800297B60 /* NetworkPassword.swift in Sources */,
+				B13011C11D26816800297B60 /* FileCount.swift in Sources */,
+				B13011BE1D26816800297B60 /* Common.swift in Sources */,
+				B13011BC1D26816800297B60 /* AppInfo.swift in Sources */,
+				B13011CB1D26816800297B60 /* WLANAwakeningMode.swift in Sources */,
+				B13011C41D26816800297B60 /* MACAddress.swift in Sources */,
+				B13011CC1D26816800297B60 /* WLANTimeout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +434,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B13011D21D26820300297B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13011EC1D26827E00297B60 /* ConfigViewController.swift in Sources */,
+				B13011D91D26820300297B60 /* AppDelegate.swift in Sources */,
+				B13011EE1D26827E00297B60 /* ImageViewController.swift in Sources */,
+				B13011ED1D26827E00297B60 /* FileListViewController.swift in Sources */,
+				B13011EF1D26827E00297B60 /* InformationViewController.swift in Sources */,
+				B13011F11D2682B700297B60 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +455,31 @@
 			target = B13011901D2680EC00297B60 /* MK2FlashAirKit */;
 			targetProxy = B130119D1D2680EC00297B60 /* PBXContainerItemProxy */;
 		};
+		B13011F41D2684D800297B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13011901D2680EC00297B60 /* MK2FlashAirKit */;
+			targetProxy = B13011F31D2684D800297B60 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B13011DC1D26820300297B60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13011DD1D26820300297B60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B13011E11D26820300297B60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13011E21D26820300297B60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B13011A31D2680EC00297B60 /* Debug */ = {
@@ -254,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -297,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,30 +576,43 @@
 		B13011A61D2680EC00297B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MK2FlashAirKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.MK2FlashAirKit";
+				PRODUCT_BUNDLE_IDENTIFIER = co.imk2o.MK2FlashAirKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B13011A71D2680EC00297B60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MK2FlashAirKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.MK2FlashAirKit";
+				PRODUCT_BUNDLE_IDENTIFIER = co.imk2o.MK2FlashAirKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -355,6 +634,40 @@
 				INFOPLIST_FILE = MK2FlashAirKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MK2FlashAirKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B13011E61D26820300297B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MK2FlashAirKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MK2FlashAirKitSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B13011E71D26820300297B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MK2FlashAirKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MK2FlashAirKitSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -384,6 +697,14 @@
 			buildConfigurations = (
 				B13011A91D2680EC00297B60 /* Debug */,
 				B13011AA1D2680EC00297B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B13011E51D26820300297B60 /* Build configuration list for PBXNativeTarget "MK2FlashAirKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13011E61D26820300297B60 /* Debug */,
+				B13011E71D26820300297B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
