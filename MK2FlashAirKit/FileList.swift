@@ -30,7 +30,7 @@ public struct FileListResponse: ResponseStringDecodable {
 
     public init(responseString: String) throws {
         let lines = responseString.componentsSeparatedByString("\r\n")
-        print(lines)
+        //print(lines)
         
         var fileListItems = [FileListItem]()
         for line in lines.dropFirst() {
@@ -112,7 +112,7 @@ private extension NSDate {
         dateComponents.second = Int(timeValue & 0b0000000000011111) * 2
         dateComponents.minute = Int((timeValue >> 5) & 0b0000000000111111)
         dateComponents.hour = Int((timeValue >> 11) & 0b0000000000011111)
-        print(dateComponents)
+        //print(dateComponents)
         
         let calendar = NSCalendar.currentCalendar()
         return calendar.dateFromComponents(dateComponents)
